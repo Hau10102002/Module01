@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=+prompt("Mời nhập số tiền lương của bạn vào (triệu):");
+     if (a>20){
+         document.write("Thuế mà bạn phải nộp tháng này là 10% lương là :" + a*0.2+"triệu" );
+     }else if (a>15){
+         document.write("Thuế mà bạn phải nộp tháng này là 7% lương là: " +a*0.15+"triệu" );
+     }else if(a>10) {
+         document.write("Thuế mà bạn phải nộp tháng này là 5% lương là " +a*0.1 +"triệu");
+     }else {
+        document.write("Thuế mà bạn phải nộp tháng này là 3% lương " + +a*0.05 +"triệu");
+     }
+</script>
+</body>
+</html>

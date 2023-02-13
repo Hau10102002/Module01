@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=+prompt("Mời nhập vào số tiền bạn cần vay(triệu)");
+     let b=+prompt("Mời nhập số tháng bạn cần để trả nợ: ");
+     if (b>6){
+         document.write("Số tiền bạn cần đóng sau khi trả hết nợ là: "+a*(1+0.2*b)+ ("triệu"))
+     }else if (b>9){
+         document.write("Số tiền bạn cần đóng sau khi trả hết nợ là: "+a*(1+0.3*b)+ ("triệu"))
+     }else if (b>12){
+         document.write("Số tiền bạn cần đóng sau khi trả hết nợ là: "+a*(1+0.4*b)+ ("triệu"))
+     }else {
+         document.write("Số tiền bạn cần đóng sau khi trả hết nợ là: "+a*(1+0.6*b) + ("triệu"))
+     }
+</script>
+</body>
+</html>
