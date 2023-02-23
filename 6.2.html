@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let str = prompt("Nhập chuỗi bất kỳ");
+    let strArr = [];
+    for (let i = 0; i <str.length; i++) {
+        strArr[i]=str.slice(i,i+1);
+    }
+    strArr.reverse();
+    document.write(strArr.join(""));
+</script>
+</body>
+</html>
